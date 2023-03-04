@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url("./root.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+
+
+.fw_500 {
+    font-weight: 500;
+}
+
+/* font-family*/
+.ff_Rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+.tranform_center_Subscribe {
+    transform: translate(0%, 50%);
+}
+
+.box_subscribe {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 3px 30px -1px #0d102511;
+}
+
+nav ul li {
+    padding-left: 40px;
+}
+
+.nav_button {
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    padding: 10px 40px;
+}
+
+/* hero */
+.section_hero_box {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 50px 21px #0d10250d;
+}
+
+.box_hr {
+    border: 2px solid #EEEFF2;
+    height: 125.57px;
+    width: 0;
+}
+
+.button_subscribe_now {
+    background: #F53838;
+    border: 1px solid #F53838;
+    border-radius: 10px;
+    padding: 17px 60px;
+    box-shadow: -1px 18px 30px -12px #f53838b9;
+}
+
+.overflowhiden {
+    overflow: hidden;
+}
+
+
+
+/* Choose */
+.section_Choose_button {
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 80px;
+    height: 760px;
+}
+
+.section_Choose_button {
+    transition: 0.6s ease-in-out;
+}
+
+.section_Choose_button:hover {
+    border: 2px solid #F53838;
+}
+
+.click_image {
+    height: 9px;
+    width: 13px;
+}
+
+
+.Choose_box_button {
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    padding: 13px 60px;
+}
+
+.Choose_box_button {
+    transition: 0.6s ease-in-out;
+}
+
+.Choose_box_button:hover {
+    background: #F53838 !important;
+    color: #FFFFFF;
+    box-shadow: 0px 22px 34px -9px rgba(245, 56, 56, 0.35);
+}
+
+.slider_box {
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 30px;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.slider_box:hover {
+    border: 2px solid #F53838;
+
+}
+
+/* slider */
+
+.slider_btn {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #F53838;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.slider_btn {
+    transition: 0.6s ease-in-out;
+}
+
+
+
+.slider_btn:hover {
+    background-color: #F53838;
+
+
+
+}
+
+
+
+.slider_btn:hover .slider_btn_arrow {
+    color: #FFFFFF;
+}
+
+
+
+.slider_btn_arrow {
+    line-height: 0.5;
+    color: #F53838;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #F53838;
+    opacity: 0.7;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0.7;
+}
+
+.slick-dots li button:before {
+    font-size: 20px;
+    line-height: 20px;
+    top: 20px;
+    left: 0px;
+    opacity: 0.7;
+    color: #DDE0E4;
+}
+
+.nav_button_button {
+    transition: 0.6s ease-in-out;
+}
+
+.nav_button {
+    transition: 0.6s ease-in-out;
+}
+
+.nav_button:hover {
+    background: #F53838;
+    border: 1px solid #F53838;
+    color: #FFFFFF !important;
+    -webkit-text-stroke: 0.3px;
+
+}
+
+.Subscribe_button {
+    transition: 0.6s ease-in-out;
+}
+
+.Subscribe_button:hover {
+    background: transparent;
+    border: 1px solid #a14553;
+    color: #05081f !important;
+    box-shadow: 0px 8px 10px rgba(156, 15, 15, 0.507);
+}
+
+.hover_line::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: #F53838;
+    bottom: -5px;
+    left: 50%;
+    transition: 0.6s ease-in-out;
+}
+
+.hover_line:hover::after {
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+.max_w_340 {
+    max-width: 340px;
+}
+
+@media (min-width:1200px) {
+    .slick-dots li button:before {
+        top: 60px;
+        left: -470px;
+    }
+
+
+    .pt_100_lg_min {
+        padding-top: 100px !important;
+    }
+}
+
+@media (max-width:1200px) {
+    nav ul {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: #FFECEC;
+        width: 100%;
+        height: 100vh !important;
+        justify-content: center;
+        transition: 0.9s;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4;
+        padding-left: 0;
+    }
+
+    nav ul li {
+        padding-left: 0px;
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .line {
+        background-color: #0B132A;
+        padding: 3px 18px;
+        border-radius: 10px;
+        margin-top: 3px;
+        z-index: 3;
+    }
+
+}
+
+@media (min-width:992px) {
+    .Provide_h2_width {
+        width: 383.41px;
+    }
+
+    .min_h_60_xsm {
+        min-height: 60vh !important;
+    }
+
+    .min_vh_90 {
+        min-height: 90vh !important;
+    }
+
+    .Trusted_width {
+        width: 555px;
+    }
+
+    .width_20_p12 {
+        width: 20%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .Provide_width {
+        width: 427.88px;
+    }
+
+    .Trusted_width {
+        width: 555px;
+    }
+
+    .Choose_width {
+        width: 555px;
+    }
+
+    .Trusted_h2_width {
+        width: 447.81px;
+    }
+
+    .Huge_h2_width {
+        width: 383.41px;
+    }
+
+    .Huge_width {
+        width: 555px;
+    }
+
+    .unique_width {
+        width: 340px;
+    }
+
+    .Trusted_width {
+        width: 555px;
+    }
+
+    .Choose_width {
+        width: 555px;
+    }
+
+    .subscribe_width_h2 {
+        width: 371.61px;
+    }
+
+
+    .width_20_p12 {
+        width: 20%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .section {
+        transform: translate(0%, 36%);
+    }
+}
+
+@media (min-width:768px) {
+    .max_w_500 {
+        max-width: 600px;
+    }
+
+}
+
+@media (min-width:300px) {
+    .pt_60_xsm_min {
+        padding-top: 50px !important;
+    }
+
+
+}
+
+
+@media (max-width:576px) {
+    .button_subscribe_now {
+        background: #F53838;
+        border-radius: 10px;
+        padding: 10px 40px;
+    }
+
+
+
+    .section_Choose_button {
+        padding: 50px;
+        height: 660px;
+    }
+
+    .Choose_box_button {
+        padding: 10px 50px;
+    }
+
+    .section {
+        transform: translate(0%, 20%);
+    }
+
+    .slider_box {
+        height: 270px;
+    }
+}
